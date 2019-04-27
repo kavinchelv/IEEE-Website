@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quattrocento+Sans');
+
+
+body {
+    padding-top: 2rem;
+    font-size: 20px;
+    font-size-adjust: auto;
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+  p{
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  .btn-primary{
+    color: #fff;
+    background-color: #006699!important;
+    border-color: #fff !important;
+  }
+  .btn-primary:hover{
+    color: #006699;
+    background-color: #fff !important;
+    border-color: #006699 !important;
+  }
+  .btn-special{
+    color: #006699;
+    background-color: #fff !important;
+    border-color: #006699 !important;
+  }
+  .btn-special:hover{
+    color: #fff;
+    background-color: #006699!important;
+    border-color: #fff !important;
+  }
+/* design to be disccusssed
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+    text-shadow: 0 0 0 #006699; 
+}
+/*----removes margin on the bottom*/
+.nomarginbottom{
+    margin-bottom: 0;
+    border-bottom: 4px #006699 solid;
+}
+.shadows{
+    box-shadow:  0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+/* the background  to be discussed
+.background {
+  background: 
+url("https://i.imgur.com/yJLgR0m.jpg")repeat;
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+/* ----------------navbar----------------- */
+.menu_ieee .container{
+  max-width:800px;
+}
+.navbar-default { 
+  background-color: #006699;
+  border-color: #E7E7E7;
+  padding-left: 0;
+  font-weight: bold; 
+  
+}
+/* Title */
+.navbar-default .navbar-brand {
+  color: #777;
+}
+.navbar {
+  margin-bottom: 0px !important;
+}
+
+.navbar-default .navbar-brand:hover,/* effects the logo when hovered*/
+.navbar-default .navbar-brand:focus{
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 110px;
+  transition: all 2s ease;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,/* effects the nav links when hovered*/
+.navbar-default .navbar-nav > li > a:focus {
+  color: #006699;
+  background-color:	rgb(255, 255, 255);
+  
+  transition: all 0.5s ease;
+ 
+}
+
+/*       not in used yet
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #006699;
+  background-color:	#DDD;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #006699;
+}
+*/
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777;
+  border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555;
+  border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+  border-color: #DDD;/* the toggle button color*/
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #006699;
+}
+.navbar-default .navbar-toggle:hover{
+  color: rgb(255, 255, 255);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #DDD;
+}
+/* wont be used yet cause no navigation are being drop down
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: rgb(218, 0, 0);
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: rgb(24, 204, 236);
+  }
+}
+*/
+
+
+/* MEDIAA QUERRIESSSSSS (for mobile)*/
+  @media only screen and (max-width : 768px){
+    .wow {
+      visibility: visible !important;
+      -webkit-animation: none !important;
+         -moz-animation: none !important;
+           -o-animation: none !important;
+          -ms-animation: none !important;
+              animation: none !important;
+    }
+    .menu_ieee .navbar-brand {
+    padding: 0px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  
+  }
+  .menu_ieee .navbar-brand>img {
+    height: 100%;
+    width: auto;
+    padding: 7px 14px; 
+
+  }
+      
+  /* video wrapper so the youtube video is responsive */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  border: 4px #006699 solid;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.award{
+  width: auto;/* you can use % */
+  height: 100px;
+}
+
+#scrollspy ul li{ /* hide for mobile */
+  visibility: hidden; /* visibilty hidden to remove from mobile view*/
+  }  
+}
+
+.card{
+  margin-bottom: 0.69em;
+
+}
+/* end of media query */ 
+  .menu_ieee .navbar-brand {
+    background: url(img/IEEE_logo_white.png) center / contain no-repeat;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    display: inline;
+    width: 100px;
+    margin: 0;
+    
+  }
+  
+  .navbar{
+    z-index:9999;
+    border-bottom: 4px;
+    border-bottom-color: white;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    text-align: center;
+    padding: 0;
+
+  }
+
+/* footer */
+footer{
+  background-color: #111111;
+  color: white;
+}
+/* END for footer */
+
+/* spacing for the content of the slideshow */
+#slideshow{
+  padding: 5em;
+}
+/*line sparater*/
+.small-divider{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  border-bottom: 1px solid #006699;
+  margin-top:1em;
+  margin-bottom: 0.5em; 
+}
+
+/* award section */
+.award{
+  width: auto;/* you can use % */
+  height: auto;
+  max-width: 6em;
+}
+.award-container{
+ justify-content: center;
+}
+   
+/*centers the colummn with empty spaces on the margin */
+.award_showcase{
+  max-width: 205px;
+  display: inline-block;
+  justify-content: center;
+   margin-right: 1em;  
+  margin-left: 1em;
+}
+
+   
+.panel-footer {
+  background-color: #fff !important;
+}
+
+.panel-footer h3 {
+  font-size: 18px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel {
+  border: 1px solid #006699; 
+  border-radius:0;
+  transition: box-shadow 0.5s;
+  
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px #111111;
+}
+
+/* END for award section */
+
+
+
+/* for events section code */
+div.col-sm-10 div {
+  height: auto;
+  font-size:1em;
+}
+.sidenav {
+    top: 20px;
+  position: fixed;
+  text-align: right;
+}
+.sidenav li{
+display: block;
+text-align: right;
+}
+.sidenav>li>a:hover,
+.sidenav>li>a:focus,{
+  font-weight: bold !important;
+  padding-left: 30px !important;
+  border-left: 5px solid #006699 !important;
+}
+
+
+#event_presentable div img{
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  overflow: hidden;
+  object-fit:contain;
+  border: 1px solid #006699;
+  background-color: #111111; 
+  
+}
+#event_presentable .event{
+  border: 2px solid #006699;
+  background-color: #111111; 
+  padding: 10px;
+  
+}
+#event_presentable .event{
+  border: none;
+  
+}
+#event_presentable{
+  max-width: 852px;
+  margin: 0 auto;
+}
+#event_presentable .shadows{
+  border: 2px solid #006699;
+}
+.boxesEvents div div h1{
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+}
+
+.boxesEvents div div p{  
+  color: #111111;
+  margin-top: 0.4em;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.boxesEvents div div blockquote{  
+  color: #111111;
+  margin-top: 0.4em;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.boxesEvents div div .box{
+  border: 1px solid #000;
+  text-align: center;
+  max-width: 852px; 
+  color: #111111;
+  background-color: #006699;
+  padding: 10px;
+}
+/* END for events section code */
+
+/* MEMBERSHIP section */
+.text-info{
+  max-width:852px; 
+  margin:0 auto;
+  color: #006699;
+}
+
+/* for news section */
+#news_presentable div img{
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  vertical-align: middle;
+  overflow: hidden;
+  object-fit:contain;
+}
+#news_presentable div{
+  background: #eee;
+  text-align: center;  
+}
+/* END for news section */
+
+
+/* for about section*/
+#committee img{
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  vertical-align: middle;
+  overflow: hidden;
+  object-fit:contain;
+}
+#advisor img{
+  
+  vertical-align: middle;
+  overflow: hidden;
+  object-fit:contain;
+  margin: 2em 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#committee,
+#advisor{
+  max-width: 800px;
+  background-color: #E7E7E7;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #111111;
+}
+/* END for about section*/
+
+
+/* Contact section */
+
+/*general setting for the boxes in each contact site*/
+#findout div{
+   display: inline-block;
+}
+
+#findout div span{
+    border: 3px solid #111111;
+    padding: 2rem;
+    margin-top: 2rem;
+    max-height: 254px;
+    width:260px;
+    background-color: white;
+    color:#111111;
+}
+#findout div a:link{
+    text-decoration: none;
+    color:#111111;
+}
+/*for facebook */
+#findout div span:hover.facebook{
+  border: 3px solid #3b5998;
+  transition: all 0.5s ease;
+}
+#findout div span:hover.fa-facebook{
+  color: #3b5998;
+  transition: all 0.5s ease;  
+}
+/*for instagram */
+#findout div span:hover.instagram{
+  border: 3px solid #bc2a8d;
+  transition: all 0.5s ease;
+}
+#findout div span:hover.fa-instagram{
+  color: #bc2a8d;
+  transition: all 0.5s ease;  
+}
+/*for google */
+#findout div span:hover.google{
+  border: 3px solid #dd4b39;
+  transition: all 0.5s ease;
+}
+#findout div span:hover.fa-google{
+  color: #dd4b39;
+  transition: all 0.5s ease;  
+}
+/* End of Contact section */
+
+
+/* PARRALLAX EFFECTS */
+.aboveachivements {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(http://about.curtin.edu.my/wp-content/uploads/sites/391/2016/10/Campus_Buildings_Heron.jpg); background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+}
+.joinnow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(https://i.imgur.com/c7isyrM.jpg); background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+}
+.benefits {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(https://i.imgur.com/sJicgyA.jpg); background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 0px 16px;
+  border-radius: 5px;
+  border: solid #006699;
+
+}
+.card-title{
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+
+}

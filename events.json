@@ -1,0 +1,51 @@
+
+[
+    {
+        "id": "event1",
+        "h1": "2 March - ARDUINO START Workshop",
+        "img":"img/ArduinoStart.jpg",
+         "p":"First IEEE CMSB workshop of the year! Arduino START Workshop enhances and builds up participants’ programming and technical skills."
+        },
+        {
+        "id": "event2",
+        "h1": "8-10 March – TTT Chumbaka YIC",
+        "img":"img/TTT_YIC.jpg",
+         "p":"An event organized by our Community Outreach (CO) Team to train mentors in assisting high school students on their design thinking, problem solving, prototyping and pitching."
+        },
+        {
+        "id": "event3",
+        "h1": "23 March – MATLAB Workshop",
+        "img":"img/MATLAB_Workshop.jpg",
+         "p":"Another workshop organized by IEEE to provide participants, especially E&E students with basic knowledge of using MATLAB in problem solving and analysis conducted by Dr. Raymond."
+        },
+        {
+        "id": "event4",
+        "h1": "23 March – TTT Marudi",
+        "img":"img/TTT_Marudi.jpg",
+         "p":"Our Community Outreach Team reaches out to Marudi, Baram District for a 2D1N bootcamp to educate rural schools on Arduino, problem identification and pitching."
+        },
+        {
+        "id": "event5",
+        "h1": "23 March – Team Building",
+        "img":"img/TeamBuilding.jpeg",
+         "p":"Bonding time between the committees! Games and potluck dinner at Tanjung Lobang Beach, Miri."
+        },
+        {
+        "id": "event6",
+        "h1": "25 March – Mukah & Bintulu Site Visit ",
+        "img":"img/MukahBintulu.jpg",
+         "p":"First industrial visit this year! IEEE organized a site visit to Mukah Power Plant and Bintulu Operation Co-ordination Centre (BOCC)."
+        },
+        {
+        "id": "event7",
+        "h1": "4 April – Welcoming Party",
+        "img":"img/IEEEWelcomingParty.jpg",
+         "p":"IEEE CMSB welcomes its new members to the family through various games."
+        },
+        {
+        "id": "event8",
+        "h1": "6-7 April – YIC Bootcamp",
+        "img":"img/TTT_YIC_Bootcamp.JPG",
+         "p":"Our Community Outreach Team organized an event to allow mentors to meet their secondary school students and prepare them for YIC."
+        }  
+]
